@@ -1,0 +1,4 @@
+FROM openjdk:11
+EXPOSE 8100
+ADD target/ay-authorization.jar ay-authorization.jar
+ENTRYPOINT ["java","-jar","/ay-authorization.jar"]

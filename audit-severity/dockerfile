@@ -1,0 +1,4 @@
+FROM openjdk:11
+EXPOSE 8300
+ADD target/ay-severity.jar ay-severity.jar
+ENTRYPOINT ["java","-jar","/ay-severity.jar"]

@@ -1,0 +1,4 @@
+FROM openjdk:11
+EXPOSE 8200
+ADD target/ay-checklist.jar ay-checklist.jar
+ENTRYPOINT ["java","-jar","/ay-checklist.jar"]

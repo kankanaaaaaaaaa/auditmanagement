@@ -1,0 +1,65 @@
+.result-card{
+    top:150px;
+    background-color: #ecf0f3;
+    /* background-color: rgb(194, 194, 189); */
+    color:#0d0c0cb2;
+    border-radius: 120px;
+    padding: 5%;
+    padding-top: 6%;
+    padding-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20%;
+    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+}
+
+.status-btn{
+    background-color: #ff0000;
+    width: 100px;
+    height: 25px;
+    border-radius: 0%;
+}
+
+.dark-table{
+    background-color: black;
+}
+
+td, th{
+    text-align: center;
+    /* background-color: rgb(255,255,255); */
+    background-color: #ecf0f3;
+    color:#101010b2;
+
+}
+
+.endbtn{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.tsev{
+    font-weight: 500;
+}
+
+.dotdots{
+    position: absolute;
+    top:15vh;
+    left:37vw;
+}
+
+.btn-info {
+    color: #000;
+    background-color: #03A9F4;
+    border-color: #0dcaf0;
+    border-radius: 22px;
+    padding: 28px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    margin-top: 23px;
+}
+
+.btn-info:hover{
+    background-color: #a77cfc;
+}
+

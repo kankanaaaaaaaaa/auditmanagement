@@ -1,0 +1,30 @@
+<!-- Header -->
+<app-nav-header></app-nav-header>
+<div style="padding-bottom: 6%;">
+    <h1>hi</h1>
+</div>
+<div class="cover">
+    <img src="assets/icon/audit_cover.jpg" alt="">
+</div>
+<div class="wrapper">
+    <div class="logo">
+        <img src="assets/icon/audit_image.png" alt="">
+    </div>
+    <div class="text-center mt-4 name">
+
+    </div>
+    <form class="p-3 mt-3" autocomplete="off" (ngSubmit)="onLogIn()">
+        <div class="form-field d-flex align-items-center">
+            <span class="far fa-user"></span>
+            <input type="text" [(ngModel)]="username" name="userName" id="userName" placeholder="Username" required>
+        </div>
+        <div class="form-field d-flex align-items-center">
+            <span class="fas fa-key"></span>
+            <input type="password" name="password" [(ngModel)]="password" id="pwd" placeholder="Password" required>
+        </div>
+        <button class="btn mt-3">Login</button>
+    </form>
+    <div class="alert alert-danger error-message" role="alert" *ngIf="message.length>0">
+        {{ message }}
+    </div>
+</div>

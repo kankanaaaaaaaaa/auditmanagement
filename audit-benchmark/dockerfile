@@ -1,0 +1,4 @@
+FROM openjdk:11
+EXPOSE 8250
+ADD target/ay-benchmark.jar ay-benchmark.jar
+ENTRYPOINT ["java","-jar","/ay-benchmark.jar"]
